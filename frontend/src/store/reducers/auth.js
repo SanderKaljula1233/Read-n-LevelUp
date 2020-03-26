@@ -3,7 +3,7 @@ import { updateObject } from '../utility';
 
 const initialState = {
     token: null,
-    error: null,
+    error: null, 
     loading: false
 }
 
@@ -45,6 +45,5 @@ const reducer = (state=initialState, action) => {
             return state;
     }
 }
-
 
 export default reducer;
